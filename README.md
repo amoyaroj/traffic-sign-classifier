@@ -6,14 +6,12 @@ This project features an end-to-end computer vision pipeline developed in Python
 ---
 
 ## 🚀 Project Overview
-I developed a system capable of classifying images—specifically traffic signs—by extracting shape and color-based features and applying machine learning algorithms. 
+I developed a system capable of classifying , images specifically traffic signs ,by extracting shape and color-based features and applying machine learning algorithms. 
 
 ### **Key Technical Workflow**
 * **Preprocessing**: Normalization, 100x100 resizing, and linearization to standardize input data.
 * **Feature Engineering**: Extracted HSV color profiles and implemented Sobel filters for high-precision edge detection.
 * **Geometry Tracking**: Leveraged Hough Transforms to count lines and detect circular patterns.
-
-[Image of machine learning pipeline flowchart]
 
 ---
 
@@ -36,9 +34,5 @@ I evaluated three distinct models, with **Logistic Regression** proving the most
 ---
 
 ## 📂 Repository Structure
-* `traffic_sign_classifier.py`: Main execution script containing preprocessing and ML models.
+* `traffic_sign_classifier.py`
 
----
-
-### 🎓 Academic Context
-This project was completed as part of the **EN
