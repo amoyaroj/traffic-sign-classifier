@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 
 # 1. IMAGE PREPROCESSING & STANDARDIZATION
-# =================================================================
 
 def load_img(path):
     """
@@ -45,7 +44,6 @@ def rgb_to_grayscale(img_array):
 
 
 # 2. LOGISTIC REGRESSION (91.84% Test Accuracy)
-# =================================================================
 
 def calculate_sigmoid(z):
     """
@@ -80,7 +78,6 @@ def train_logistic_regression(X_train, y_train, learn_rate=0.4, iterations=2000)
 
 
 # 3. K-NEAREST NEIGHBORS (KNN)
-# =================================================================
 
 def knn_single_prediction(new_example, X_train, y_train, k):
     """
